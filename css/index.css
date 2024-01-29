@@ -1,5 +1,5 @@
-.imagen {
-    background-image:url(img\fondo_index.jpg) ;
+.flex-item {
+    background-image:url(img\fondo_index.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
