@@ -1,6 +1,5 @@
 body {
     background-image:url(/img/fondo_index.jpg);
-    
     background-repeat: no-repeat;
     background-size:cover;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
@@ -8,7 +7,6 @@ body {
     margin: 0;
     padding: 0;
 }
-
 .flex-item {
     background-repeat: no-repeat;
     width: 100%;
@@ -18,7 +16,6 @@ body {
     align-items: center;
     justify-content: center;
     text-align: center;
-
 }
 img {
     width: 170px;
@@ -38,14 +35,14 @@ a{
     }
 ul{
     display: flex;
+    width: 100%;
     list-style: none;
     border: 2px solid rebeccapurple;
-    padding: .5em;
-    background-color: #ffffff;
+    padding: 5px;
+    background-color: #c5ee67;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     position: absolute;
     border-bottom: 0;
-    display:flex;
-    justify-content: center;
-    align-items: center;
+    display: flex;
+    justify-content: space-between;
 }
