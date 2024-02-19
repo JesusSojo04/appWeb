@@ -6,6 +6,7 @@ body {
     color: rgb(113, 43, 226);
     margin: 0;
     padding: 0;
+    min-height: 100vh;
 }
 .flex-item {
     background-repeat: no-repeat;
@@ -23,17 +24,17 @@ img {
 ::-webkit-scrollbar {
     display: none;
 }
-a{
-    border: 1px solid #5e00b6; /*anchura, estilo y color borde*/
-    padding: 10px; /*espacio alrededor texto*/
-    background-color: #681ae6; /*color botón*/
-    color: #ffffff; /*color texto*/
-    text-decoration: double; /*decoración texto*/
-    text-transform: uppercase; /*capitalización texto*/
+.footer ul a{
+    border: 1px solid #5e00b6;
+    padding: 10px;
+    background-color: #681ae6;
+    color: #ffffff;
+    text-decoration: double;
+    text-transform: uppercase;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
-    border-radius: 50px; /*bordes redondos*/
+    border-radius: 50px;
     }
-ul{
+.footer ul{
     display: flex;
     width: 100%;
     list-style: none;
@@ -45,4 +46,32 @@ ul{
     border-bottom: 0;
     display: flex;
     justify-content: space-between;
+}
+.entry {
+    border: 1px solid #5e00b6;
+    padding: 10px;
+    background-color: #681ae6;
+    color: #ffffff;
+    text-decoration: double;
+    text-transform: uppercase;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 50px;
+}
+.header {
+    background-color: #c5ee67;
+    color: #fff;
+    display: flex; 
+    justify-content:space-around;
+    align-items: center;
+    width: 100%;
+}
+.header ul a {
+    border: 1px solid #5e00b6;
+    padding: 10px;
+    background-color: #681ae6;
+    color: #ffffff;
+    text-decoration: double;
+    text-transform: uppercase;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 50px;
 }
