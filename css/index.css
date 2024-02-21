@@ -11,7 +11,7 @@ body {
 .flex-item {
     background-repeat: no-repeat;
     width: 100%;
-    margin-top: 160px;
+    margin-top: 115px;
     display: flex;
     flex-direction: column;
     align-items: center;
